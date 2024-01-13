@@ -1,0 +1,168 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 10px;
+}
+
+.nav-head {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 120px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header .nav-head {
+    margin-right: 20px; 
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    
+    
+  }
+
+ 
+.header ul {
+    display: flex;
+    gap: 34px;
+
+}
+
+.header ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+a {
+    color: #3A3A3A;
+}
+
+.header ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav ul li a img {
+    width: 24px;
+    height: 24px;
+  }
+
+.sec-1 {
+    margin-left: 120px;
+    position: relative;
+}
+
+.sec-1-header {
+    width: 582px;
+    height: 133px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.sec-1-text {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 600;
+    width: 505px;
+    height: 60.9px;
+}
+
+.sec-1-btn {
+    margin-top: 45px;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    border: none;
+}
+.arrow {
+    width: 24px;
+    height: 24px;
+}
+
+.sec-1-right {
+    position: absolute;
+    top: 1px; /* Adjust the top position */
+    left: 800px; /* Move right by 111 pixels from the sec-1-header */
+    background-image: url("/styles/images/Circle design.svg");
+    background-size: cover;
+    background-position: center;
+    width: 475px;
+    height: 475px;
+    border-radius: 475px;
+    border: 3px solid var(--Brand-Purple-100, #F1E4FF);
+
+   
+  }
+
+
+  .sec-2-images {
+    margin-left: 200px;
+    display: flex;
+    margin-top:270px;
+    
+}
+
+
+  .sec-2-images .clickable-image {
+    margin-right: 60px; 
+}
+
+
+.sec-2-images .clickable-image.alibaba img {
+    width: 55.051px;
+    height: 31.065px;
+}
+
+.sec-2-images .clickable-image.amazon img {
+    width: 84px;
+    height: 25.284px;
+}
+
+.sec-2-images .clickable-image.daraz img {
+    width: 84px;
+    height: 26px;
+}
+
+.sec-2-images .clickable-image.ebay img {
+    width: 99.116px;
+    height: 39.607px;
+}
+
+.sec-2-images .clickable-image.rakuten img {
+    width: 97.059px;
+    height: 28px;
+}
+
+.sec-2-images .clickable-image.walmart img {
+    width: 111px;
+    height: 26px;
+}
+
+.sec-2-images .clickable-image.target img {
+    width: 98px;
+    height: 38px;
+}
