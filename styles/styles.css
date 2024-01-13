@@ -105,8 +105,8 @@ a {
 
 .sec-1-right {
     position: absolute;
-    top: 1px; /* Adjust the top position */
-    left: 800px; /* Move right by 111 pixels from the sec-1-header */
+    top: 1px; 
+    left: 800px; 
     background-image: url("/styles/images/Circle design.svg");
     background-size: cover;
     background-position: center;
